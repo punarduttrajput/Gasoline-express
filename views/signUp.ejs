@@ -1,0 +1,53 @@
+<%- include("partials/header") -%>
+
+<body>
+  
+    
+    <div class="signup-form">
+      <form action="/signUp" method="post">
+      <div class="form-header">
+        
+        <img src="/images/Ge.png" alt="logo_trihum" id="logo_sign">
+        <p>Sign Up to connect with us</p>
+      </div>
+          <div class="form-group">
+        <label>First Name</label>
+            <input type="text" class="form-control" name="firstname" required="required">
+          </div>
+          <div class="form-group">
+        <label>Last Name</label>
+            <input type="text" class="form-control" name="lastname" required="required">
+          </div>
+          <div class="form-group">
+        <label>Email Address</label>
+            <input type="email" class="form-control" name="email" required="required">
+          </div>
+          <div class="form-group">
+        <label>Mobile Number</label>
+            <input type="number" class="form-control" name="phone" required="required">
+          </div>
+      <div class="form-group">
+        <label>Password</label>
+              <input type="password" class="form-control" name="password" required="required">
+          </div>
+      <div class="form-group">
+        <label>Confirm Password</label>
+              <input type="password" class="form-control" name="confirm_password" required="required">
+              <!-- <i class="far fa-eye" id="togglePassword"></i> -->
+          </div>
+          <!-- <div class="form-group">
+        <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+      </div> -->
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Submit</button>
+      </div>
+      <p>Already have an account <a href="/login">Login now</a></p>
+      </form>
+    
+  </div>
+</body>
+
+
+
+
+<%- include("partials/footer") -%>
