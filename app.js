@@ -37,13 +37,16 @@ const projectSchema = new mongoose.Schema({
     vehicleInfo:[{
         vehicleNumber:Number,
         vehicleModel:String
-    }]
+    }],
+    password:Number
 });
 
 const user = mongoose.model("user", projectSchema);
 
 
 //Home get route
+const d = new Date().getFullYear();
+
 
 app.get("/", function(req, res){
     res.render("home");
