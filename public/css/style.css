@@ -1,4 +1,17 @@
 
+body{
+  background-color: #EEE3CB;
+  font-family: 'Sriracha', cursive;
+}
+h2{
+  text-align: center;
+}
+
+.our-headings{
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+}
+
 #logo_sign{
     height: 12.5rem;
     width: 20rem;
@@ -14,6 +27,7 @@
   }
   #brand{
     font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
   }
 .form-control{
     min-height: 41px;
@@ -104,5 +118,24 @@
     }
     footer{
       text-align: center;
-      margin-top: 7.5rem;
+      
     }
+    footer p{
+      color:aqua;
+    }
+    .services{
+      background-color: #eee;
+      height: 10rem;
+    }
+    .services i{
+      font-size: 3rem;
+      text-decoration: none;
+    }
+    .services .row{
+      text-align: center;
+    }
+    .connectUs{
+      background-color: #2f3c7e;
+      height: 10rem;
+    }
+    
