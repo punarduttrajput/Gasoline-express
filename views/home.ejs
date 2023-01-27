@@ -1,55 +1,78 @@
 <%- include("partials/header") -%>
 <body>
-    <div class="starting-content">
-        <h1 class="our-headings">
-            Welcome to the leading roadside service provider platform!
-        </h1>
-        <div class="container-fluid">
-            <p>
-                <h2 >
-                    Description.........
-                </h2>
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            </p>
-        </div>
+    <div class="headLogo">
+        <img src="images/Ge.png" alt="logo" id="headImg">
+        <span id="headLogoLine">Gasoline Express</span>
     </div>
+   <div class="landingHead">
+        <h1>Let your dreams</h1>
+        <h1>ride with us.</h1>
+   </div>
 
-    <div class="services container-fluid">
-        <h2>Our Services...</h2>
+   <div>
+    <button type="button" id="sButton" class="btn btn-lg rounded-pill"><a href="/signUp" style="text-decoration: none; color: #fff;">Sign Up Now</a></button>
+   </div>
+
+   <!-- service division -->
+   <div class="service">
+        <h1>Our Services For</h1>
+            <div class="row" id="sRow">
+                <div class="col">
+                    <img src="images/bike.png" class="item" alt="bike">
+                    <h2>Two Wheelers</h2>
+                </div>
+
+                <div class="col">
+                    <img src="images/car.png" class="item" alt="car">
+                    <h2>Four Wheelers</h2>
+                </div>
+
+                <div class="col">
+                    <img src="images/truck.png" class="item" alt="truck">
+                    <h2>Heavy Vehicles</h2>
+                </div>
+            </div>
+   </div>
+
+   <!-- driver division -->
+
+   <div class="driver">
+        <img src="images/driver.png" id="driverImg" alt="driver">
+        <div class="textDriver">
+            <h1>Leave your worries to</h1>
+            <h1>us, so you can focus</h1>
+            <h1>on your ride.</h1>
+        </div>
+   </div>
+
+   <!-- about division -->
+
+   <div class="about" id="abt">
+    <img src="images/group.png" id="aboutImg" alt="group">
+    <h1>About Our Company</h1>
+    <h2>A team comprised of certified Mechanics and Engineeres</h2>
+   </div>
+
+   <!-- contact division -->
+
+   <div class="contact">
+        <img src="images/1137443.jpg" id="cityImg" alt="city">
+        <h1>Contact us</h1>
         <div class="row">
             <div class="col">
-                <a href=""><i class="fa-solid fa-motorcycle"></i></a>
+                <h2>Address</h2>
+                <h3>ABC street, Kanpur, Uttar Pradesh, India 208017</h3>
             </div>
             <div class="col">
-                <a href=""><i class="fa-solid fa-car-side"></i></a>
+                <h2>Email Address</h2>
+                <h3>hellogasolineexpress@gmail.com</h3>
             </div>
             <div class="col">
-                <a href=""><i class="fa-solid fa-truck"></i></a>
+                <h2>Phone Number</h2>
+                <h3>1234567890</h3>
             </div>
         </div>
-    </div>
-
-    <div class="connectUs container-fluid">
-        <h2>Connect Us</h2>
-        <div class="row">
-            <div class="col">
-                <a href=""><i class="fa-brands fa-telegram"></i></a>
-            </div>
-            <div class="col">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <div class="col">
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-            </div>
-            <div class="col">
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-            <div class="col">
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-            </div>
-        </div>
-    </div>
-
+   </div>
 
 </body>
 

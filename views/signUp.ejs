@@ -21,40 +21,45 @@
       <div class="row d-flex justify-content-center">
         <div class="col-lg-8">
           <h2 class="fw-bold mb-5">Sign up now</h2>
-          <form>
+          <form method="post" action="/signUp">
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row">
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example1" class="form-control" />
-                  <label class="form-label" for="form3Example1">First name</label>
+                  <input type="text" name="firstName" class="form-control" required="required" />
+                  <label class="form-label" >First name</label>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example2" class="form-control" />
-                  <label class="form-label" for="form3Example2">Last name</label>
+                  <input type="text" name="lastName" class="form-control" required="required"/>
+                  <label class="form-label" >Last name</label>
                 </div>
               </div>
             </div>
 
              <!-- Email input -->
              <div class="form-outline mb-4">
-              <input type="email" id="form3Example3" class="form-control" />
-              <label class="form-label" for="form3Example3">Email address</label>
+              <input type="email" name="eMail"  class="form-control" required="required" />
+              <label class="form-label" >Email address</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="number" name="mNumber" class="form-control" required="required"/>
+              <label class="form-label" >Mobile Number</label>
             </div>
 
             <div class="row">
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example1" class="form-control" />
-                  <label class="form-label" for="form3Example1">State</label>
+                  <input type="text" name="cState" class="form-control" required="required"/>
+                  <label class="form-label" >State</label>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example2" class="form-control" />
-                  <label class="form-label" for="form3Example2">Disttrict</label>
+                  <input type="text" name="cDistrict" class="form-control" required="required" />
+                  <label class="form-label" >District</label>
                 </div>
               </div>
             </div>
@@ -62,14 +67,37 @@
             <div class="row">
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example1" class="form-control" />
-                  <label class="form-label" for="form3Example1">City</label>
+                  <input type="text" name="cArea" class="form-control" required="required" />
+                  <label class="form-label" >Area</label>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example2" class="form-control" />
-                  <label class="form-label" for="form3Example2">Pin Code</label>
+                  <input type="text" name="cPincode" class="form-control" required="required"/>
+                  <label class="form-label" >Pin Code</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <label for="vehicleType">Choose vehicle type</label>
+
+                    <select name="vehicleType" >
+                      <option value="twoWheeler">Two Wheeler</option>
+                      <option value="threeWheeler">Three Wheeler</option>
+                      <option value="fourWheeler">Four Wheeler</option>
+                    </select>
+
+                  <!-- <input type="dropdown" id="form3Example1" class="form-control" />
+                  <label class="form-label" for="form3Example1">Vehicle Type</label> -->
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                  <input type="text" name="cVehicleNumber" class="form-control" required="required"/>
+                  <label class="form-label" >Vehicle Number</label>
                 </div>
               </div>
             </div>
@@ -80,14 +108,14 @@
             <div class="row">
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example1" class="form-control" />
-                  <label class="form-label" for="form3Example1">Password</label>
+                  <input type="password"  class="form-control" name="Password" required="required"/>
+                  <label class="form-label" >Password</label>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="form3Example2" class="form-control" />
-                  <label class="form-label" for="form3Example2">Confirm Password</label>
+                  <input type="password"  class="form-control" name="cPassword" required="required" />
+                  <label class="form-label" >Confirm Password</label>
                 </div>
               </div>
             </div>

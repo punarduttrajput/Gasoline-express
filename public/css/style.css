@@ -1,6 +1,6 @@
 
 body{
-  background-color: #EEE3CB;
+  background-color: #FFD56F;
   font-family: 'Sriracha', cursive;
 }
 h2{
@@ -123,19 +123,96 @@ h2{
     footer p{
       color:aqua;
     }
-    .services{
-      background-color: #eee;
-      height: 10rem;
+    .headLogo{
+      margin-top: 4rem;
+      margin-left: 4rem;
+      color: #820000;
+      font-family: 'Times New Roman', Times, serif;
     }
-    .services i{
-      font-size: 3rem;
-      text-decoration: none;
+    .landingHead{
+      margin-left: 6rem;
+      margin-top: 2rem;
     }
-    .services .row{
+    .landingHead h1{
+      font-size: 7.5rem;
+      color: #820000;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .service{
+      color:#820000;
+      margin-top: 10rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .service h1{
       text-align: center;
+      font-size: 4rem;
     }
-    .connectUs{
-      background-color: #2f3c7e;
+    .service h2{
+      text-align:center;
+    }
+    .item{
+      margin-top: 2rem;
       height: 10rem;
+      padding-left: 8rem;
+      
+    }
+    .driver{
+      margin-top: 15rem;
+      margin-left: 2rem;
+    }
+    .driver h1{
+      color:#820000;
+      font-size: 5rem;
+    }
+    .about{
+      margin-top: 15rem;
+      color:#820000;
+    }
+    .about h1{
+      padding-top: 10%;
+      font-size: 5rem;
+      margin-left: 4rem;
     }
     
+    .contact h1{
+      font-size: 5rem;
+      color:#820000;
+      margin-left: 4rem;
+      margin-top: 4rem;
+    }
+    .contact h2 {
+      text-align: left;
+      color:#820000;
+    }
+    .contact .row{
+      margin-left: 4rem;
+    }
+    
+    #headImg{
+      height: 7rem;
+    }
+    #headLogoLine{
+      font-size: 3rem;
+    }
+    #sButton{
+      color:#fff;
+      background-color:#820000;
+      margin-top:4rem;
+      margin-left: 6rem;
+    }
+    #sRow{
+      margin: auto;
+    }
+    #driverImg{
+      height:20rem;
+      float: left;
+      margin-right: 2rem;
+    }
+    #aboutImg{
+      height: 35rem;
+      float: right;
+    }
+    #cityImg{
+      width: 100%;
+      height: 450px;
+    }
